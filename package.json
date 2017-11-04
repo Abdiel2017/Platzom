@@ -1,0 +1,33 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Permite traducir palabras a un idioma inventado.",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "Babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Abdiel2017/Platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Abdiel <guardavid@hotmail.com> (https://www.facebook.com/abdiel.dioses)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abdiel2017/Platzom/issues"
+  },
+  "homepage": "https://github.com/Abdiel2017/Platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
